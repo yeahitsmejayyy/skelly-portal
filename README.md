@@ -1,9 +1,9 @@
 
-![Skelly Admin Banner](./image.png)
+![Skelly Portal Banner](./image.png)
 
-# skelly-admin
+# skelly-portal
 
-> A clean, typed, no-nonsense admin frontend for product-first builders.
+> A clean, typed, no-nonsense portal frontend for product-first builders.
 
 <p align="center">
   <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-FF6100?style=flat-square"></a>
@@ -14,7 +14,7 @@
   <img alt="tRPC 11" src="https://img.shields.io/badge/tRPC-11-FF6100?style=flat-square&logo=trpc&logoColor=white">
 </p>
 
-Skelly Admin exists to answer a different question than the backend:
+Skelly Portal exists to answer a different question than the backend:
 
 **“Can I see and control my product without fighting my frontend?”**
 
@@ -24,7 +24,7 @@ If yes, good. That’s the job.
 
 ## What This Is
 
-Skelly Admin is a **Vite + React admin application** designed to pair cleanly with Skelly Backend.
+Skelly Portal is a **Vite + React portal application** designed to pair cleanly with Skelly Backend.
 
 It is built for:
 
@@ -43,7 +43,7 @@ It assumes:
 
 ## What This Is (and Can Become)
 
-Right now (v0), Skelly Admin is:
+Right now (v0), Skelly Portal is:
 
 * A Vite + React app
 * Typed end-to-end with tRPC
@@ -85,7 +85,7 @@ No Next.js. No server components. No magic.
 ## Project Structure
 
 ```
-skelly-admin/
+skelly-portal/
 ├─ src/
 │  ├─ components/
 │  │  ├─ ui/                # shadcn components
@@ -114,7 +114,7 @@ skelly-admin/
 
 ## How It Connects to the Backend
 
-Skelly Admin talks to Skelly Backend via **tRPC**.
+Skelly Portal talks to Skelly Backend via **tRPC**.
 
 Types flow from the backend router:
 
@@ -155,7 +155,7 @@ bun install
 bun run dev
 ```
 
-Admin app:
+Portal app:
 
 ```
 http://localhost:5173
@@ -208,7 +208,7 @@ Design systems should serve the product, not the other way around.
 * Internal tools deserve clarity
 * Delete components aggressively
 
-Skelly Admin is intentionally boring.
+Skelly Portal is intentionally boring.
 Boring scales.
 
 ---
@@ -228,7 +228,7 @@ Until then, this is enough.
 
 ## Final Note ☠️
 
-If this admin feels almost too simple,
+If this portal feels almost too simple,
 that’s correct.
 
 Build the product first.

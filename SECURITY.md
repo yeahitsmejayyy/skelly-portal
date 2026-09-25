@@ -1,6 +1,6 @@
 # Security Policy
 
-Skelly Admin is a starting point, not a finished product. Treat this policy the
+Skelly Portal is a starting point, not a finished product. Treat this policy the
 same way: it covers the template as shipped, not whatever you build on top of it.
 
 ---
@@ -17,7 +17,7 @@ automatically.
 
 ## What This Actually Is
 
-Skelly Admin is a browser-only Vite + React app. It has no server, no build-time
+Skelly Portal is a browser-only Vite + React app. It has no server, no build-time
 code generation, and no install scripts. At runtime it does one thing that leaves
 the browser: it talks to a backend you point it at over tRPC (`src/lib/trpc.ts`).
 
@@ -38,13 +38,13 @@ This template is expected to be reviewed and adapted. At minimum:
 * Decide what an operator is allowed to see and do before exposing the app
 * Audit dependencies (`bun.lock` / `package.json`) on your own schedule
 
-If you deploy it as-is, you are deploying an unauthenticated admin UI.
+If you deploy it as-is, you are deploying an unauthenticated portal UI.
 
 ---
 
 ## Reporting
 
-Open an issue: <https://github.com/yeahitsmejayyy/skelly-admin/issues>
+Open an issue: <https://github.com/yeahitsmejayyy/skelly-portal/issues>
 
 If it is a vulnerability, say so in the **title** and leave the details out.
 Do not post a reproduction, an exploit, or affected URLs in a public issue —

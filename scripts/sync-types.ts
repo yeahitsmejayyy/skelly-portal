@@ -1,5 +1,5 @@
 // Copies the backend's emitted AppRouter contract into src/lib/app-router.d.ts.
-// Run it whenever the backend's router changes, then commit the result. The admin never
+// Run it whenever the backend's router changes, then commit the result. The portal never
 // imports the backend's source, so a fresh clone typechecks and builds on its own.
 import { $ } from "bun";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";

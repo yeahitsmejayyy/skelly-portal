@@ -1,6 +1,6 @@
 # Architecture
 
-How this admin is put together, and the reasoning behind the parts that are not obvious.
+How this portal is put together, and the reasoning behind the parts that are not obvious.
 
 ---
 
@@ -33,7 +33,7 @@ it in `App.tsx`, so they inherit the sidebar without each one rendering it.
 
 The obvious alternative — importing `../../../skelly-backend/src/appRouter` — is what this
 template used to do, and it was broken in a way that took a while to see. Typechecking the
-admin pulled the backend's *source* into this TypeScript program, and that source imports
+portal pulled the backend's *source* into this TypeScript program, and that source imports
 `bun:sqlite` and `node:fs`. It only worked because this repo carried `@types/bun`: a browser
 app holding server runtime globals. Clone it alone and it did not typecheck at all, silently,
 because `build` was a bare `vite build` that strips types rather than checking them.

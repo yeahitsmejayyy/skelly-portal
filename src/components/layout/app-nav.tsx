@@ -84,7 +84,7 @@ export function AppNav({ variant = "default" }: AppNavProps) {
       duration-200
     "
                         >
-                            skelly-admin
+                            skelly-portal
                         </span>
                     )}
 
